@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.2s ease;
+}
+
+:root {
+  /* 🎨 Cores */
+  --cor-black: #272424;
+  --cor-amarelo: #DDC700;
+  --cor-branca: #FAFAFA;
+  --cor-azul-linkedin: #0a66c2;
+
+  /* 🌅 Gradiente */
+  --gradiente-background: radial-gradient(var(--cor-black), #302A00);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--gradiente-background);
+  color: var(--cor-branca);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
