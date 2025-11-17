@@ -38,7 +38,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin-top: 50px;
+  margin-top: 80px;
   flex-wrap: wrap; 
   width: 100%;
   max-width: 688px;
@@ -387,8 +387,6 @@ main {
   justify-content: center;
   text-align: center;
   gap: 30px;
-
-  border: #254BDD solid 1px;
 }
 
 .content-ling>h5{
@@ -400,15 +398,12 @@ main {
   width: 100px;
   height: 100px;
   margin-right: 12%;
-  border: #254BDD solid 1px;
 }
 
 .linguas{
   display: flex;
   align-items: center;
   width: 80%;
-
-  border: #254BDD solid 1px;
 }
 
 .ling{
